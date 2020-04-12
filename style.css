@@ -1,0 +1,187 @@
+
+* {
+
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+    background-color:#222;
+    font-family: "pirata one";
+    font-size: 24px;  
+}
+
+.sticky-top {
+
+    top: 50%;
+    text-align: center;
+    position: sticky;
+    background-color: yellow;
+    width: 130px;
+    left: 35%;
+    margin-bottom: -31px;
+    transform: rotate(90deg);
+}
+.sticky-top:hover {
+    transform: rotate(-90deg);
+    background-color: red;
+    color:rgb(6, 61, 245);
+}
+
+.sticky-top a {
+    
+    color: #222;
+    text-decoration: none;
+}
+
+.header {
+
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    overflow:hidden;
+}
+
+.navbar {
+
+    background-color: rgb(6, 61, 245);
+    color: "222";
+    padding: 0px 10px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.navbar a {
+
+    float: left;
+    display: block;
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.navbar a.right {
+
+    float: right;
+}
+
+.navbar a:hover {
+
+    background: white;
+}
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+
+    flex: 60%;
+    padding: 20px;
+    height: 1000px;
+    overflow: auto;
+}
+
+.main:hover {
+
+    background-color: #444;
+}
+
+
+.main a {
+
+    color: white;
+
+}
+
+.main a:hover {
+
+    color: red;
+
+}
+
+
+
+.side {
+
+    flex: 40%;
+    padding: 20px;
+    background-color: #fff;
+    height: 1000px;
+    overflow: auto;
+}
+
+.side p {
+
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.footer {
+
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+.albm {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+
+img:hover {
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    
+}
+
+ .footer {
+
+    background-color: rgb(6, 61, 245);
+    display: block;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+
+ }  
+
+ span {
+
+    float: right;
+ }
+
+ .sm a {
+
+    float: left;
+    display: block;
+    color: #fff;
+    padding: 10px;
+    
+}
+
+.sm a:hover {
+
+    color: red;
+      
+}
